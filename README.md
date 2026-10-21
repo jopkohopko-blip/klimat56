@@ -23,6 +23,12 @@
 
 После правок JS меняйте `?v=2` в ссылках на скрипты, чтобы браузеры не держали старую версию.
 
+## Публикация
+- **GitHub Pages** (открывается в РФ): https://jopkohopko-blip.github.io/klimat56/ — обновляется сам после `git push` в ветку `main`.
+- Cloudflare Pages: `.\deploy.ps1` → https://klimat56.pages.dev (в РФ может не открываться).
+
+Пока сайт черновой, на всех страницах стоит `<meta name="robots" content="noindex, nofollow">`. Перед запуском его нужно убрать.
+
 ## Запуск локально
 ```
 python -m http.server 8056
